@@ -46,7 +46,7 @@ This script shows a file dialog that lets you select a .lua, ,py, .py2, or .py3 
 
 ## Installation ##
 
-![Open Scripts Folder](images/bbedit-open-scripts-folder.png)
+![Open Scripts Folder](Images/bbedit-open-scripts-folder.png)
 
 **Step 1.** Open the BBEdit scripts folder by selecting the **Scripts (Icon) > Open Scripts Folder** menu item in BBEdit.
 
@@ -63,17 +63,17 @@ You could also open this folder view up using the Terminal with the following co
 
 **Step 3.** Copy the "Fusion" folder into the BBedit Scripts folder location you opened in step 1.
 
-![Copy the Fusion folder](images/copy-fusion-folder.png)
+![Copy the Fusion folder](Images/copy-fusion-folder.png)
 
 **Step 4.** When you switch back to BBEdit open up the **Scripts (Icon) > Fusion >** menu item. You will see the three new AppleScripts.
 
-![BBEdit Fusion Scripts Menu](images/bbedit-scripts-menu-items.png)
+![BBEdit Fusion Scripts Menu](Images/bbedit-scripts-menu-items.png)
 
 **Step 5.** If you want FuScript and the BBEdit based AppleScripts to be able to run correctly, you have to make sure the Fusion Studio program is running in a graphical session.
 
 ## Remote FuScript Host Access ##
 
-![Script Editor FuScript Hostname](images/apple-script-editor-fuscript-hostname.png)
+![Script Editor FuScript Hostname](Images/apple-script-editor-fuscript-hostname.png)
 
 If you are a Fusion based compositing technical director / developer / power user and you want to take these scripts further, you can add a remote system's hostname entry to the variable "fuscriptHostname" in the AppleScripts. This will change the computer that FuScript uses for the Fusion() socket connection. This would let you write code on your local system and test it on a remote computer running a Fusion Studio graphical session. The remote system can be on a different operating system platform which is a handy thing to be able to do.
 
