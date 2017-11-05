@@ -1,4 +1,4 @@
-# FuScript Integration for BBEdit on MacOS - 2017-11-02 #
+# FuScript Integration for BBEdit on MacOS v1.1 - 2017-11-05 #
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
@@ -70,6 +70,38 @@ You could also open this folder view up using the Terminal with the following co
 ![BBEdit Fusion Scripts Menu](Images/bbedit-scripts-menu-items.png)
 
 **Step 5.** If you want FuScript and the BBEdit based AppleScripts to be able to run correctly, you have to make sure the Fusion Studio program is running in a graphical session.
+
+## BBEdit Hotkey Customization ##
+
+An optional installation step is to create a custom hotkey in BBEdit's Preferences window. 
+
+This BBEdit hotkey can be used to launch the FuScript integration Applescripts so you can instantly see the results from running your Lua or Python scripts inside of Fusion.
+
+To do this you need to open the BBEdit Preferences. Then Select the "Menus & Shortcuts" section on the left side of the Preferences window. 
+
+You are free to map the BBEdit hotkeys however you want. To do this you need to click in the area on the far right side of a menu item name. This allows you to define a custom hotkey combination.
+
+For my needs, since I am mostly running scripts in BBEdit via the FuScript launching approach I decided to remap the default #! > Run command to use Shift + Command + R:
+
+![BBEdit #! Preferences](Images/bbedit-run-hotkey-shift-command-r.png)
+
+Then I clicked on the "Scripts" section and set the "Fusion Script Terminal From BBEdit" item to be launched with Command + R. For my needs this makes BBEdit into a really effective IDE Environment.
+
+![BBEdit Scripts Preferences](Images/bbedit-fuscript-terminal-from-bbedit-hotkey-command-r.png)
+
+## BBEdit Languages ##
+
+BBEdit allows you to define custom language mappings for each file type you can open. This is done with the help of the Fusion Preferences "Language" section.
+
+When I am setting up BBEdit I like to map the following Fusion file formats to be displayed with Lua syntax highlighting:
+
+- .fuse
+- .fu
+- .comp
+- .setting
+- .eyeonscript
+
+![BBEdit Preferences](Images/bbedit-languages.png)
 
 ## Remote FuScript Host Access ##
 
