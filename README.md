@@ -116,7 +116,6 @@ The "fuscriptHostname" variable is set to "localhost" in the AppleScripts by def
     -- Choose a hostname for the FuScript session
     set fuscriptHostname to "localhost"
 
-
 As an example, I have a desktop system in my office with a hostname of "Pine". I can change the "fuscriptHostname" variable to use this "Pine"  hostname so I can connect from BBEdit to a remote Fusion compositing system or render node when I am running Lua and Python scripts:
 
     -- Choose a hostname for the FuScript session
@@ -126,9 +125,9 @@ As an example, I have a desktop system in my office with a hostname of "Pine". I
 
 I wrote a pair of Lua and Python based tutorials on the We Suck Less Fusion community forums that explain what FuScript is and how it works:
 
-[Running UI Manager GUIs from a Terminal FuScript Session](https://www.steakunderwater.com/viewtopic.php?f=6&t=1411&start=30#p11498)  
+[Running UI Manager GUIs from a Terminal FuScript Session](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=6&t=1411&start=30#p11498)  
 
-[Running Python Scripts in FuScript](https://www.steakunderwater.com/viewtopic.php?f=6&t=1633&p=11964#p11964)  
+[Running Python Scripts in FuScript](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=6&t=1633&p=11964#p11964)  
 
 Good Luck! I hope you have fun with these AppleScripts and they make you more productive in a day.
 
