@@ -10,7 +10,7 @@ This project has three AppleScripts that connect BBEdit on MacOS to the Fusion S
 
 Using this toolset you can now use BBEdit to quickly edit Fusion .lua and .py scripts and run them instantly through the context of the current Fusion composite. If you select a Fusion .comp file it will be opened in a new tab in Fusion. If you select a Fusion macro .setting file it will be added to your current composite.
 
-Fusion Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manger based script GUI.
+Fusion Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manager based script GUI.
 
 ## Screenshot ##
 
@@ -63,7 +63,7 @@ You could also open this folder view up using the Terminal with the following co
 
 **Step 2.** Unzip the **"FuScript-Integration-for-BBEdit-on-MacOS.zip"** file. Open up the new **"FuScript-Integration-for-BBEdit-on-MacOS"** folder that was created.
 
-**Step 3.** Copy the "Fusion" folder into the BBedit Scripts folder location you opened in step 1.
+**Step 3.** Copy the "Fusion" folder into the BBEdit Scripts folder location you opened in step 1.
 
 ![Copy the Fusion folder](Images/copy-fusion-folder.png)
 
