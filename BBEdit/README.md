@@ -1,4 +1,4 @@
-# FuScript Integration for BBEdit on MacOS v1.1 - 2017-11-06 #
+# FuScript Integration for BBEdit on MacOS v2 - 2018-09-04 #
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
@@ -6,11 +6,11 @@ web: [www.andrewhazelden.com](http://www.andrewhazelden.com)
 
 ## About the Scripts ##
 
-This project has three AppleScripts that connect BBEdit on MacOS to the Fusion Studio via the FuScript command line process. This will free you from the constraints of testing code chunks via the single line entry text field in the Fusion Console tab.
+This project has three AppleScripts that connect BBEdit on MacOS to the Fusion Studio and Resolve Studio via the FuScript command line process. This will free you from the constraints of testing code chunks via the single line entry text field in the Fusion Console tab.
 
 Using this toolset you can now use BBEdit to quickly edit Fusion .lua and .py scripts and run them instantly through the context of the current Fusion composite. If you select a Fusion .comp file it will be opened in a new tab in Fusion. If you select a Fusion macro .setting file it will be added to your current composite.
 
-Fusion Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manger based script GUI.
+Fusion Studio or Resolve Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manger based script GUI.
 
 ## Screenshot ##
 
@@ -20,9 +20,15 @@ This screenshot shows the result of sending a script from your active BBEdit doc
 
 ## Included AppleScripts ##
 
-- Fusion Script Terminal From BBEdit.scpt
-- Fusion Script Terminal Interactive Shell.scpt
-- Fusion Script Terminal With File Dialog.scpt
+- Fusion
+	- Fusion Script Terminal From BBEdit.scpt
+	- Fusion Script Terminal Interactive Shell.scpt
+	- Fusion Script Terminal With File Dialog.scpt
+
+- Resolve
+	- Resolve Script Terminal From BBEdit.scpt
+	- Resolve Script Terminal Interactive Shell.scpt
+	- Resolve Script Terminal With File Dialog.scpt
 
 ## Fusion Script Terminal From BBEdit ##
 
@@ -63,7 +69,7 @@ You could also open this folder view up using the Terminal with the following co
 
 **Step 2.** Unzip the **"FuScript-Integration-for-BBEdit-on-MacOS.zip"** file. Open up the new **"FuScript-Integration-for-BBEdit-on-MacOS"** folder that was created.
 
-**Step 3.** Copy the "Fusion" folder into the BBedit Scripts folder location you opened in step 1.
+**Step 3.** Copy the "Fusion" and "Resolve" folders into the BBedit Scripts folder location you opened in step 1.
 
 ![Copy the Fusion folder](Images/copy-fusion-folder.png)
 
@@ -71,7 +77,7 @@ You could also open this folder view up using the Terminal with the following co
 
 ![BBEdit Fusion Scripts Menu](Images/bbedit-scripts-menu-items.png)
 
-**Step 5.** If you want FuScript and the BBEdit based AppleScripts to be able to run correctly, you have to make sure the Fusion Studio program is running in a graphical session.
+**Step 5.** If you want FuScript and the BBEdit based AppleScripts to be able to run correctly, you have to make sure the Fusion Studio or Resolve Studio program is running in a graphical session.
 
 ## BBEdit Hotkey Customization ##
 
