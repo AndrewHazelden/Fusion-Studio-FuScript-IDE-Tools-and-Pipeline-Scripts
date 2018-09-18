@@ -1,4 +1,4 @@
-# FuScript Integration for BBEdit on MacOS v2 - 2018-09-04 #
+# FuScript Integration for BBEdit on MacOS v2 - 2018-09-14 #
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
@@ -10,7 +10,7 @@ This project has three AppleScripts that connect BBEdit on MacOS to the Fusion S
 
 Using this toolset you can now use BBEdit to quickly edit Fusion .lua and .py scripts and run them instantly through the context of the current Fusion composite. If you select a Fusion .comp file it will be opened in a new tab in Fusion. If you select a Fusion macro .setting file it will be added to your current composite.
 
-Fusion Studio or Resolve Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manager based script GUI.
+Fusion Studio or Resolve Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manger based script GUI.
 
 ## Screenshot ##
 
@@ -19,7 +19,6 @@ This screenshot shows the result of sending a script from your active BBEdit doc
 ![Sending a Script from BBEdit to FuScript](Images/fuscript-from-bbedit.png)
 
 ## Included AppleScripts ##
-
 
 - Fusion
 	- Fusion Script Terminal From BBEdit.scpt
@@ -41,7 +40,7 @@ This script takes the active foreground document that is open in BBEdit and send
 
 This script shows a dialog that asks you if you want to to use Python 2, Python 3, or Lua with a FuScript interactive session. If you don't select a scripting language in the dialog after 8 seconds Lua will be chosen as the default language.
 
-![Scripting Languages Dialog](Images/choose-langauage-for-interactive-shell.png)
+![Scripting Languages Dialog](Images/choose-language-for-interactive-shell.png)
 
 After you pick a language in the dialog a new FuScript interactive terminal session is launched in the Terminal.app. You can use this window to paste in and run code that will be executed inside of Fusion's graphical session.
 
@@ -70,7 +69,7 @@ You could also open this folder view up using the Terminal with the following co
 
 **Step 2.** Unzip the **"FuScript-Integration-for-BBEdit-on-MacOS.zip"** file. Open up the new **"FuScript-Integration-for-BBEdit-on-MacOS"** folder that was created.
 
-**Step 3.** Copy the "Fusion" and "Resolve" folders into the BBEdit Scripts folder location you opened in step 1.
+**Step 3.** Copy the "Fusion" and "Resolve" folders into the BBedit Scripts folder location you opened in step 1.
 
 ![Copy the Fusion folder](Images/copy-fusion-folder.png)
 
@@ -123,6 +122,7 @@ The "fuscriptHostname" variable is set to "localhost" in the AppleScripts by def
     -- Choose a hostname for the FuScript session
     set fuscriptHostname to "localhost"
 
+
 As an example, I have a desktop system in my office with a hostname of "Pine". I can change the "fuscriptHostname" variable to use this "Pine"  hostname so I can connect from BBEdit to a remote Fusion compositing system or render node when I am running Lua and Python scripts:
 
     -- Choose a hostname for the FuScript session
@@ -132,9 +132,9 @@ As an example, I have a desktop system in my office with a hostname of "Pine". I
 
 I wrote a pair of Lua and Python based tutorials on the We Suck Less Fusion community forums that explain what FuScript is and how it works:
 
-[Running UI Manager GUIs from a Terminal FuScript Session](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=6&t=1411&start=30#p11498)  
+[Running UI Manager GUIs from a Terminal FuScript Session](https://www.steakunderwater.com/viewtopic.php?f=6&t=1411&start=30#p11498)  
 
-[Running Python Scripts in FuScript](https://www.steakunderwater.com/wesuckless/viewtopic.php?f=6&t=1633&p=11964#p11964)  
+[Running Python Scripts in FuScript](https://www.steakunderwater.com/viewtopic.php?f=6&t=1633&p=11964#p11964)  
 
 Good Luck! I hope you have fun with these AppleScripts and they make you more productive in a day.
 

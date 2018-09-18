@@ -1,4 +1,4 @@
-# FuScript Integration for BBEdit on MacOS v2 - 2018-09-04 #
+# FuScript Integration for BBEdit on MacOS v2 - 2018-09-14 #
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
@@ -40,7 +40,7 @@ This script takes the active foreground document that is open in BBEdit and send
 
 This script shows a dialog that asks you if you want to to use Python 2, Python 3, or Lua with a FuScript interactive session. If you don't select a scripting language in the dialog after 8 seconds Lua will be chosen as the default language.
 
-![Scripting Languages Dialog](Images/choose-langauage-for-interactive-shell.png)
+![Scripting Languages Dialog](Images/choose-language-for-interactive-shell.png)
 
 After you pick a language in the dialog a new FuScript interactive terminal session is launched in the Terminal.app. You can use this window to paste in and run code that will be executed inside of Fusion's graphical session.
 
