@@ -1,4 +1,4 @@
--- Fusion Composite Viewer - v1 2017-09-19 9.51 AM
+-- Fusion Composite Viewer - v2 2026-10-15 11.27 AM 
 -- by Andrew Hazelden <andrew@andrewhazelden.com>
 -- www.andrewhazelden.com
 

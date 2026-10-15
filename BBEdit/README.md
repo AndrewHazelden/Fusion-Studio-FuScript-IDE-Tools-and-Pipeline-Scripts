@@ -1,4 +1,4 @@
-# FuScript Integration for BBEdit on MacOS v2 - 2018-09-14 #
+# FuScript Integration for BBEdit on MacOS v3 - 2026-10-15 #
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
