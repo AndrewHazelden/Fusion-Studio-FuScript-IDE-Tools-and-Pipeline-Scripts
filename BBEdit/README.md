@@ -135,7 +135,9 @@ Edit the Fusion Studio / Resolve Studio settings under the "Global and Default S
 
 Also change the "Automatic Scripted Actions > Execution: " setting to "Allow All".
 
-![Script Editor](Images/fusion-script.png)
+![Fusion Script Editor](Images/fusion-script.png)
+
+![Resolve Script Editor](Images/resolve-script.png)
 
 ## Closing Notes
 
