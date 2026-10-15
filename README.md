@@ -128,6 +128,14 @@ As an example, I have a desktop system in my office with a hostname of "Pine". I
     -- Choose a hostname for the FuScript session
     set fuscriptHostname to "Pine"
 
+## Fusion Script Editor
+
+![Script Editor](Images/fusion-script.png)
+
+Edit the Fusion Studio / Resolve Studio settings under the "Global and Default Settings > Script > ". Link the BBEdit application in the Script Editor filepath field.
+
+Also change the "Automatic Scripted Actions > Execution: " setting to "Allow All".
+
 ## Closing Notes ##
 
 I wrote a pair of Lua and Python based tutorials on the We Suck Less Fusion community forums that explain what FuScript is and how it works:

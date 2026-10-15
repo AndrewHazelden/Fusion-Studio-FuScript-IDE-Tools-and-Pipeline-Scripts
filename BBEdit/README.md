@@ -1,10 +1,10 @@
-# FuScript Integration for BBEdit on MacOS v3 - 2026-10-15 #
+# FuScript Integration for BBEdit on MacOS v3 - 2026-10-15
 
 By Andrew Hazelden  
 email:  [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)  
 web: [www.andrewhazelden.com](http://www.andrewhazelden.com)  
 
-## About the Scripts ##
+## About the Scripts
 
 This project has three AppleScripts that connect BBEdit on MacOS to the Fusion Studio and Resolve Studio via the FuScript command line process. This will free you from the constraints of testing code chunks via the single line entry text field in the Fusion Console tab.
 
@@ -12,13 +12,13 @@ Using this toolset you can now use BBEdit to quickly edit Fusion .lua and .py sc
 
 Fusion Studio or Resolve Studio needs to be running for the FuScript tool to function correctly. The fusion:, fu:, app:, and comp: pointers are configured and the active Fusion comp is linked to automatically. This means you are instantly capable of connecting to the foreground Fusion composite or able to create a Fusion UI Manger based script GUI.
 
-## Screenshot ##
+## Screenshot
 
 This screenshot shows the result of sending a script from your active BBEdit document editing session to FuScript.
 
 ![Sending a Script from BBEdit to FuScript](Images/fuscript-from-bbedit.png)
 
-## Included AppleScripts ##
+## Included AppleScripts
 
 - Fusion
 	- Fusion Script Terminal From BBEdit.scpt
@@ -30,13 +30,13 @@ This screenshot shows the result of sending a script from your active BBEdit doc
 	- Resolve Script Terminal Interactive Shell.scpt
 	- Resolve Script Terminal With File Dialog.scpt
 
-## Fusion Script Terminal From BBEdit ##
+## Fusion Script Terminal From BBEdit
 
 This script takes the active foreground document that is open in BBEdit and sends it to FuScript as either a .lua, ,py, .py2, or .py3 script. If you have a Fusion .comp open in BBEdit it will be opened up in Fusion's GUI as a normal document.
 
 ![Fusion Script Terminal From BBEdit](Images/fuscript-bbedit-python-document.png)
 
-## Fusion Script Terminal Interactive Shell ##
+## Fusion Script Terminal Interactive Shell
 
 This script shows a dialog that asks you if you want to to use Python 2, Python 3, or Lua with a FuScript interactive session. If you don't select a scripting language in the dialog after 8 seconds Lua will be chosen as the default language.
 
@@ -46,13 +46,13 @@ After you pick a language in the dialog a new FuScript interactive terminal sess
 
 ![FuScript Interactive Terminal Session](Images/fuscript-interactive-shell.png)
 
-## Fusion Script Terminal With File Dialog ##
+## Fusion Script Terminal With File Dialog
 
 This script shows a file dialog that lets you select a .lua, ,py, .py2, or .py3 script. The selected file is then sent to FuScript and executed inside of Fusion's graphical session. If you select a Fusion .comp it will be opened up in Fusion's GUI as a normal document.
 
 ![Fusion Script Terminal With File Dialog](Images/fuscript-with-filedialog.png)
 
-## Installation ##
+## Installation
 
 ![Open Scripts Folder](Images/bbedit-open-scripts-folder.png)
 
@@ -79,7 +79,7 @@ You could also open this folder view up using the Terminal with the following co
 
 **Step 5.** If you want FuScript and the BBEdit based AppleScripts to be able to run correctly, you have to make sure the Fusion Studio or Resolve Studio program is running in a graphical session.
 
-## BBEdit Hotkey Customization ##
+## BBEdit Hotkey Customization
 
 An optional installation step is to create a custom hotkey in BBEdit's Preferences window. 
 
@@ -97,7 +97,7 @@ Then I clicked on the "Scripts" section and set the "Fusion Script Terminal From
 
 ![BBEdit Scripts Preferences](Images/bbedit-fuscript-terminal-from-bbedit-hotkey-command-r.png)
 
-## BBEdit Languages ##
+## BBEdit Languages
 
 BBEdit allows you to define custom language mappings for each file type you can open. This is done with the help of the Fusion Preferences "Language" section.
 
@@ -111,7 +111,7 @@ When I am setting up BBEdit I like to map the following Fusion file formats to b
 
 ![BBEdit Preferences](Images/bbedit-languages.png)
 
-## Remote FuScript Host Access ##
+## Remote FuScript Host Access
 
 ![Script Editor FuScript Hostname](Images/apple-script-editor-fuscript-hostname.png)
 
@@ -122,13 +122,20 @@ The "fuscriptHostname" variable is set to "localhost" in the AppleScripts by def
     -- Choose a hostname for the FuScript session
     set fuscriptHostname to "localhost"
 
-
 As an example, I have a desktop system in my office with a hostname of "Pine". I can change the "fuscriptHostname" variable to use this "Pine"  hostname so I can connect from BBEdit to a remote Fusion compositing system or render node when I am running Lua and Python scripts:
 
     -- Choose a hostname for the FuScript session
     set fuscriptHostname to "Pine"
 
-## Closing Notes ##
+## Fusion Script Editor
+
+![Script Editor](Images/fusion-script.png)
+
+Edit the Fusion Studio / Resolve Studio settings under the "Global and Default Settings > Script > ". Link the BBEdit application in the Script Editor filepath field.
+
+Also change the "Automatic Scripted Actions > Execution: " setting to "Allow All".
+
+## Closing Notes
 
 I wrote a pair of Lua and Python based tutorials on the We Suck Less Fusion community forums that explain what FuScript is and how it works:
 
