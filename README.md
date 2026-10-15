@@ -130,11 +130,13 @@ As an example, I have a desktop system in my office with a hostname of "Pine". I
 
 ## Fusion Script Editor
 
-![Script Editor](Images/fusion-script.png)
+Edit the Fusion Studio / Resolve Studio settings under the "Global and Default Settings > Script > ". Link the BBEdit application in the Script Editor filepath field as:
 
-Edit the Fusion Studio / Resolve Studio settings under the "Global and Default Settings > Script > ". Link the BBEdit application in the Script Editor filepath field.
+`/Applications/BBEdit.app`
 
 Also change the "Automatic Scripted Actions > Execution: " setting to "Allow All".
+
+![Script Editor](Images/fusion-script.png)
 
 ## Closing Notes ##
 
